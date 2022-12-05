@@ -1,0 +1,63 @@
+.results-container{
+    display: flex;    
+    align-items: center;    
+    justify-content: start;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 88%;    
+}
+.results-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;    
+    margin: 0 auto;
+}
+.winner-title{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 32px;     
+    font-weight: 800;
+    color:#f30a57;    
+    text-align: center;  
+    margin-bottom: 50px;   
+}
+.loser-title{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 32px;     
+    font-weight: 800;
+    color:hsla(0, 0%, 6%, 0.6);  
+    text-align: center;  
+    margin-bottom: 50px;   
+}
+.user-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;     
+    width: 400px; 
+    height: 600px; 
+}
+.user-container { 
+    justify-content: center;
+    width: 400px;
+    height:600px;
+    margin-top: 20px ;
+    text-align: center; 
+}
+p{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 24px; 
+    text-align: center;
+}
+.errors-container{
+    margin: 0 auto;
+    width: 600px;
+    height:600px;   
+    
+}
+.error{   
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 50px;    
+    color:#f30a57;    
+}
+

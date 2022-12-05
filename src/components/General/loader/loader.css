@@ -1,0 +1,80 @@
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;    
+    height: 88%;      
+}
+.circles {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    animation: spin 1s ease both;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    animation: graviton 1s ease both;
+  }
+  
+  @keyframes spin{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes graviton{
+    100%{
+      top:50%;
+      left:50%;
+    }
+  }
+  
+  .circle:first-of-type {
+    top: 79px;
+    left: 177px;
+    background: #FF4028;
+  }
+  
+  .circle:nth-of-type(2) {
+    top: 134px;
+    left: 221px;
+    background: #FF8400;
+  }
+  
+  .circle:nth-of-type(3) {
+    top: 201px;
+    left: 205px;
+    background: #f9ae00;
+  }
+  
+  .circle:nth-of-type(4) {
+    top: 232px;
+    left: 142px;
+    background: #ffcf00;
+  }
+  
+  .circle:nth-of-type(5) {
+    top: 201px;
+    left: 80px;
+    background: #c6d800;
+  }
+  
+  .circle:nth-of-type(6) {
+    top: 134px;
+    left: 64px;
+    background: #00bb9c;
+  }
+  
+  .circle:nth-of-type(7) {
+    top: 79px;
+    left: 108px;
+    background: #a76392;
+  }
+  

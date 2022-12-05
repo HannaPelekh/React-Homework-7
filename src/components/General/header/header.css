@@ -1,0 +1,31 @@
+
+.header{
+    background-color: #f30a57;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+a {
+    text-decoration: none;
+    color: #ebdfe0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+a:hover {
+    cursor: pointer;
+}
+  
+li {
+    list-style-type: none;        
+}
+.nav {
+    display: flex;    
+    width: 1300px;
+    justify-content: start;
+    flex-direction: row;
+    column-gap: 70px;
+  }    
+  .active {
+    font-weight: bold;
+  }
